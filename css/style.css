@@ -1,7 +1,56 @@
 body{
     display: flex;
     width: 900px;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    flex-direction: column;
+
+
+}
+
+#container-2 {
+    margin-top: 20px;
+    width: 300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+
+
+}
+
+#container-2 img { 
+    align-self: flex-start;
+    padding-right: 10px;
+    order: 0;
     
 
 }
+
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#paper div{
+    /* width: 300px; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+#ing1{
+    justify-self: left;
+
+
+}
+
+
+#ing2{
+    justify-items:;
+
+}
+
+
+
 
